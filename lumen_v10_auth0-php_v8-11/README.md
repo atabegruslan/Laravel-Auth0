@@ -1,0 +1,4 @@
+- https://developer.auth0.com/resources/code-samples/full-stack/hello-world/basic-role-based-access-control/spa/react-javascript
+	- https://developer.auth0.com/resources/code-samples/full-stack/hello-world/basic-role-based-access-control/spa/react-javascript/lumen-php
+		- https://github.com/auth0-developer-hub/api_lumen_php_hello-world/tree/basic-role-based-access-control
+		- https://github.com/auth0-developer-hub/spa_react_javascript_hello-world/blob/basic-authentication-with-api-integration/src/services/message.service.js

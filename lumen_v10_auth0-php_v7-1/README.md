@@ -1,0 +1,1 @@
+- https://auth0.com/blog/developing-restful-apis-with-lumen/#Securing-the-Authors-API-with-Auth0
