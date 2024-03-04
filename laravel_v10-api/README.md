@@ -40,6 +40,8 @@ In `routes/api.php`, protect route by using `->middleware('auth')`
 
 Complete coding up the routes, controllers and models
 
+Edit `app/Middleware/Authenticate.php`, `app/Exceptions/Handler.php` & `app/Exceptions/ApiException.php` as in the code
+
 The way to retrieve authenticated user's info in controller is `auth()->user()` and `auth()->id()`
 
 `php artisan serve`
