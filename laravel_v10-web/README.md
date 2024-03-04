@@ -25,11 +25,15 @@ AUTH0_AUDIENCE=https://{AUTH0_DOMAIN}/api/v2/
 AUTH0_REDIRECT_URI=${APP_URL}/callback
 ```
 
+![Screenshot 2024-03-04 202006](https://github.com/atabegruslan/Laravel-Auth0/assets/20809372/22994cbb-4d18-4474-9c15-7abc77cace82)
+
 Make sure further up, `APP_URL` is `http://localhost:8000`
 
 In `routes/web.php`, protect route by using `->middleware('auth')`
 
 Fill callback and logout URLs in Auth0
+
+![Screenshot 2024-03-04 202021](https://github.com/atabegruslan/Laravel-Auth0/assets/20809372/e37180b3-e41f-469c-99a9-c6c3eb02ad02)
 
 Complete coding up the routes, controllers and models
 
