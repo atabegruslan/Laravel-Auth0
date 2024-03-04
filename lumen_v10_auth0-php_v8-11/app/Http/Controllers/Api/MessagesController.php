@@ -8,11 +8,11 @@ class MessagesController extends Controller
 {
     public function showPublicMessage(): JsonResponse
     {
-        return new JsonResponse(["aaa"=>"bbb"]);
+        return new JsonResponse(["bla"=>"bla"]);
     }
 
     public function showProtectedMessage(): JsonResponse
     {
-        return new JsonResponse(["ccc"=>"ddd"]);
+        return new JsonResponse(["protected"=>"bla"]);
     }
 }
