@@ -1,4 +1,3 @@
 - https://developer.auth0.com/resources/code-samples
 - https://packagist.org/packages/auth0/
 - https://www.youtube.com/playlist?list=PL0oOIENMjnW2TWM2CAryYrEOIMs4CZcap
-- Setting up Lumen: https://lumen.laravel.com/docs/10.x
