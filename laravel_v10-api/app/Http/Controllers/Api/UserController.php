@@ -4,9 +4,10 @@ namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\Staff;
+use App\Models\User;
+use Illuminate\Support\Facades\Hash;
 
-class StaffController extends Controller
+class UserController extends Controller
 {
     public function store(Request $request)
     {
@@ -14,10 +15,11 @@ class StaffController extends Controller
         {
             // sanitize fields
 
-            $staff = Staff::updateOrCreate(['email' => $request->email],[
-                'email'         => $request->email,
-                'name'          => $request->name,
-                'auth0_user_id' => $request->auth0_user_id,
+            $staff = User::updateOrCreate(['email' => $request->email],[
+                'email'    => $request->email,
+                'name'     => $request->name,
+                'auth0_id' => auth()->id(),
+                'password' => Hash::make('dummy')
             ]);
 
             return response()->json([
